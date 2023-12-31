@@ -18,28 +18,28 @@ console.log(typeof score2);        //*    o/p => sting
 //convering string to number => we use "Number(var name)", Note-- Capital in "Number() function"
 
 let numScore2Value = Number(score2)
-console.log(numScore2Value);
-console.log(typeof(numScore2Value));        //* o/p => number    ✅
+console.log(numScore2Value);                 //* o/p => 33
+console.log(typeof(numScore2Value));        //* o/p =>  number    ✅
 
 //?--------------------------------------case2----------------------------------------------
 
 let score3 = "33abc"  //~NaN
 let numScore3Value = Number(score3)
-console.log(typeof(numScore3Value));       //* o/p => number ❌  --"33abc" shouldnt be a number type
+console.log(typeof(numScore3Value));    //* o/p => number❌ -- type of "33abc" shouldnt be a number as as its NaN
 
 //lets see what it prints
-console.log(numScore3Value);              //* o/p => NaN
+console.log(numScore3Value);          //* o/p => NaN
 
-// lets see what type NaN belongs
-console.log(typeof NaN)                  //* o/p =>  number
+// lets see what type "NaN" belongs
+console.log(typeof NaN)             //* o/p =>  number
 
 //?--------------------------------------case3------------------------------------------------
 
 let score4 = null   //~null 
-console.log(typeof score4);              //* o/p => object    -- type of null 
+console.log(typeof score4);              //* o/p => object   -- type of null 
 let NumScore4value = Number(score4)   
-console.log(typeof (NumScore4value))   //* o/p =>  number     -- type of null converted to number
-console.log(NumScore4value);          //* o/p =>   0          -- value of null converted to number
+console.log(typeof (NumScore4value))   //* o/p =>  number    -- type of null converted to number
+console.log(NumScore4value);          //* o/p =>   0         -- value of null converted to number thou it's not 0
 
 //?--------------------------------------case4------------------------------------------------
 
