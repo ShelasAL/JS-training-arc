@@ -2,7 +2,7 @@
 
 "use strict";  //treat all js code as newer js (whole file will become new strict,as of now it works auto)
 
-// alert("Yaro")  // we running it in nodejs, not browser we gets error
+// alert("Yaro")  // we are running it in nodejs, not browser so we gets error
 
 console.log(5          //low code redability
     +5)
@@ -15,9 +15,9 @@ let age = "16"             //Number
 let isLoggedIn = false     //Boolean
 
 //number => 2^53
-//bigint => used to scale this
+//bigint => used to scale this number
 //string => "",''
-//booblean => true/false
+//boolean => true/false
 //null => standalone value
 //undefined => yet to assign value 
 //symbol => used for uniqueness
