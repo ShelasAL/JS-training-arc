@@ -65,11 +65,10 @@ let boolOfLogged = Boolean(idLoggedIn)
 console.log(boolOfLogged)           //* o/p => true
 console.log(typeof(boolOfLogged))  //*  o/p => booolean
 
-//*boolean to number convertion via "+"
+//boolean to number convertion via "+"
+console.log(+true) //* o/p => 1  (❌not best practice)
 
-console.log(+true) //* o/p => 1
-
-//* in boolean conversion falsy values are converted into false and truthy values are converted into true
+// in boolean conversion falsy values are converted into false and truthy values are converted into true
 //^ falsy ("",0,null,undefined,document.all,false)
 //^ truthy (everything other than falsy)
 
