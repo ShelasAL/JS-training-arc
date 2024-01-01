@@ -80,11 +80,3 @@ console.log(typeof stringNumber)   //* o/p => string
 
 console.log(stringNumber+"%")    //* o/p => 99% --> now you can see Concatenation occurs 
 
-
-
-
-//~---------------------------------------------OPERATIONS-------------------------------------------------------
-let value = 3
-let negValue = -value
-console.log()
-
