@@ -11,8 +11,8 @@ console.log(3+2)       //code readability should be high
 //-------------------------------------------Data Types -----------------------------------------
 
 let Username = "Unimon"        //string
-let age = "16"             //Number
-let isLoggedIn = false     //Boolean
+let age = "16"                //Number
+let isLoggedIn = false       //Boolean
 
 //number => 2^53
 //bigint => used to scale this number
