@@ -19,18 +19,18 @@
 // console.log(a%b)
 
 // //^--------------------------------------------String Concatnation------------------------------------------------
-// let str1 = "Hello " 
-// let str2 = "Unimon" 
-// console.log(str3= str1 + str2)
-// console.log(str3 + ", How are you?")
+let str1 = "Hello " 
+let str2 = "Unimon" 
+console.log(str3= str1 + str2)
+console.log(str3 + ",How are you?")  //* o/p => "Hello Unimon, How are you?"
 
 // //^----------------------------------------String Number Complex--------------------------------------------------
 // console.log(3+"7")      //* o/p => 10  ---(num-str)
 // console.log("3"+7)     //* o/p => 10   ---(str-num)
 // console.log("3"+"7")  //* o/p => 37   ---(str-str)
 
-// /* as you can see that if number and string are added its type is converted to number and if number as string-string
-// then the value of both are processed as a string */
+ /* as you can see that if number and string are added its type is converted to number and if number as string-string
+then the value of both are processed as a string */
 
 // //* lets see case with 3 values
 
@@ -59,11 +59,13 @@
 
 //!------------------------------------------------examples-----------------------------------------------------
 
+//&------------------------------------------simple incrementing------------------------------------------------
 let gameCounter = 100;
-gameCounter++;          
+++gameCounter;          
 console.log(gameCounter);  //* Output: 101 
-                          //--even if we place prefix operator the value would've been same in this example
-
+ /*&even if we place postfixoperator the value would've been same in this example as in postfix increment the expression runs then 
+ it increments but in this case there is no expression while excecuting the incrementation so its going to be the same  */
+//&----------------------------------------incrementing with expression-------------------------------------------
 var x = 5;
 console.log(++x);
  /* o/p 6 --> x is incremented to 6 using the prefix increment operator before the "console.log()"
