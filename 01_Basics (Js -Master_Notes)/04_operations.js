@@ -37,8 +37,8 @@ then the value of both are processed as a string */
 // console.log("3"+7+5)   //* o/p => 375
 // console.log(3+7+"5")  //* o/p => 105
 
-// /*when string follows before 2 elements then the after elements are seen as string itself-- use () to fix
-// /*when string follows after 2 elements then the before elements gets added.*/
+/*when string follows before 2 elements then the after elements are seen as string itself-- use () to fix
+when string follows after 2 elements then the before elements gets added.*/
 
 // //^-----------------------------------------Multiple Assignments-----------------------------------------------
 
@@ -63,7 +63,7 @@ then the value of both are processed as a string */
 let gameCounter = 100;
 ++gameCounter;          
 console.log(gameCounter);  //* Output: 101 
- /*&even if we place postfixoperator the value would've been same in this example as in postfix increment the expression runs then 
+ /*even if we place postfixoperator the value would've been same in this example as in postfix increment the expression runs then 
  it increments but in this case there is no expression while excecuting the incrementation so its going to be the same  */
 //&----------------------------------------incrementing with expression-------------------------------------------
 var x = 5;
