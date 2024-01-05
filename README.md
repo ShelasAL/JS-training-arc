@@ -6,13 +6,13 @@ This repo contains notes made by me in my javascript learning process.
 
 
 I made sure that after reading this no one will have any confusion
-as i have used in depth notes and specific reason why the code works differently in some places.
-I hope that this will be helpful for people who are also trying to learn javascript.
+as I have used indepth notes and specific reasons why the code works differently in some places.
+I hope that this will be helpful for people who are trying to learn javascript.
 
 
 ### *IMPORTANT*
 
-Install "colourful comments" extention for VScode while reading as i used different colours of comments to diffrent places for user friendly experience while reading..
+Install "colourful comments" extention for VScode while reading as i used different colours of comments to different places for user friendly experience while reading..
 
 link:-https://marketplace.visualstudio.com/items?itemName=ParthR2031.colorful-comments
 
