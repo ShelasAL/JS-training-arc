@@ -5,7 +5,7 @@
 
 // let value = 3
 // let negValue = -value
-// console.log(negValue)
+// console.log(negValue) //* o/p => -3
 
 // //^-----------------------------------------Basic Math Operations---------------------------------------------
 // let a,b
@@ -60,21 +60,23 @@ when string follows after 2 elements then the before elements gets added.*/
 //!------------------------------------------------examples-----------------------------------------------------
 
 //&------------------------------------------simple incrementing------------------------------------------------
-let gameCounter = 100;
-++gameCounter;          
-console.log(gameCounter);  //* Output: 101 
+let gameCounter = 100;       //*declaration
+++gameCounter;              //*incrementation
+console.log(gameCounter);  //*expression
+
+//* Output: 101 
  /*even if we place postfixoperator the value would've been same in this example as in postfix increment the expression runs then 
  it increments but in this case there is no expression while excecuting the incrementation so its going to be the same  */
 //&----------------------------------------incrementing with expression-------------------------------------------
-var x = 5;
-console.log(++x);
+var x = 5;            //declaration 
+console.log(++x);    //expression(pre-incrementation)
  /* o/p 6 --> x is incremented to 6 using the prefix increment operator before the "console.log()"
  statement is executed, resulting in the output "6" being displayed.*/
 
 
- var x = 5;
-console.log(x++); //* Output: 5
-console.log(x); //* Output: 6
+ var x = 5;         //*declaration
+console.log(x++);  //* output: 5    expression(post-incrementation)
+console.log(x);   //*  output: 6
 /* The "console.log(x++)"" statement first outputs the current value of "x", which is 5. Then, the "x"
 variable is incremented by 1, but this incremented value is not used in this statement. As a result,
 the output of the first "console.log()" statement is 5. */
