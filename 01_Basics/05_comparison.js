@@ -58,7 +58,7 @@ console.log(null >= 0);  //* o/p => true
 
 console.log( undefined == 0  )   //false
 console.log( undefined >  0  )  //false
-console.log( undefined >  0 )  //false
+console.log( undefined <  0 )  //false
 
 //!---------------------------------Comparison with null and undefined-------------------------------------------
 
