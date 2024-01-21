@@ -21,8 +21,6 @@ let isLoggedIn = false       //Boolean
 //null => standalone value
 //undefined => yet to assign value 
 //symbol => used for uniqueness
-
-
 // object
 
 
